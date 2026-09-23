@@ -1,0 +1,42 @@
+Todo:
+  HTML:
+    ✔ Add boilerplate for index.html @started(26-09-22 15:44) @done(26-09-22 15:46) @lasted(2m27s)
+
+  Javascript:
+    Personal Content:
+      Variables:
+        ✔ Name @started(26-09-22 15:57) @done(26-09-22 16:00) @lasted(3m22s)
+        ✔ Email @started(26-09-22 15:57) @done(26-09-22 16:00) @lasted(3m22s)
+        ✔ LinkedIn @started(26-09-22 15:57) @done(26-09-22 16:00) @lasted(3m23s)
+        ✔ Github @started(26-09-22 15:57) @done(26-09-22 16:00) @lasted(3m24s)
+      Skills: 
+        // Add stuff from army too
+        ✔ Programming languages @started(26-09-22 15:57) @done(26-09-22 16:04) @lasted(7m46s)
+        ✔ Technologies @started(26-09-22 15:57) @done(26-09-22 16:04) @lasted(7m50s)
+        ✔ Tools @started(26-09-22 15:57) @done(26-09-22 16:04) @lasted(7m51s)
+        ✘ Spoken languages @started(26-09-22 15:57) @cancelled(26-09-22 16:04) @wasted(7m56s)
+      Work Experience:
+        ✔  Maintenance Engineer @done(26-09-23 18:56)
+        ☐ Thesis worker
+        ☐ Trainee
+        ☐ Summer Trainee
+        ☐ Computer Vision Intern
+      Education:
+        ✔ Metropolia BE @done(26-09-23 19:06)
+        ☐ IB
+      Publications:
+        ☐ Thesis
+        ☐ YOLO for Urban Traffic: Insights from Helsinki Port Surveillance 
+      Projects:
+        ☐ Smart Bird Feeder
+        ☐ Ventilation Contoller
+        ☐ Flight Simulator
+        ☐ Personal Cloud Infrastructure
+        ☐ Embedded Linux Development with Yocto
+    Display:
+      ✔ Variables @done(26-09-23 19:31)
+      ✔ Skills @done(26-09-23 20:14)
+      ☐ Work experience
+      ☐ Education
+      ☐ Publications
+      ☐ Projects
