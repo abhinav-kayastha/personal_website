@@ -50,8 +50,8 @@ document.getElementById("description").textContent = description;
 const skill_container = document.getElementById("skills_area");
 
 skills.forEach((skill_group) => {
-  // creates h3 tag for each category in skills array and adds them in the div
-  const heading = document.createElement("h3");
+  // creates h4 tag for each category in skills array and adds them in the div
+  const heading = document.createElement("h4");
   heading.textContent = `${skill_group.category}`;
   skill_container.appendChild(heading);
 
