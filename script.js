@@ -9,11 +9,11 @@ const skills = [
     category: "Programming Languages",
     items: ["Python", "C/C++", "Javascript"],
   },
-  { category: "Technologies", items: ["Docker", "Flask"] },
   {
     category: "Tools",
     items: ["Git", "Linux", "GitLab CI/CD", "GitHub Copilot", "Cursor"],
   },
+  { category: "Technologies", items: ["Docker", "Flask"] },
 ];
 
 const work_experience = [
@@ -52,14 +52,14 @@ const skill_container = document.getElementById("skills_area");
 skills.forEach((skill_group) => {
   // creates h3 tag for each category in skills array and adds them in the div
   const heading = document.createElement("h3");
-  heading.textContent = `${skill_group.category}:`;
+  heading.textContent = `${skill_group.category}`;
   skill_container.appendChild(heading);
 
   // create unordered list
   const ul = document.createElement("ul");
 
-  // gets each skill from each category and adds them as an item of a list which goes under
-  // its respective category
+  // gets each skill from the items array in each element of the skills array and
+  // adds them as an item of a list which goes under its respective category
   skill_group.items.forEach((item) => {
     const li = document.createElement("li");
     li.textContent = item;
