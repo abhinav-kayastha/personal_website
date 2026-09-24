@@ -68,3 +68,21 @@ skills.forEach((skill_group) => {
 
   skill_container.appendChild(ul);
 });
+
+const work_container = document.getElementById("work_experiences");
+
+work_experience.forEach((work) => {
+  const heading = document.createElement("h4");
+  heading.textContent = `${work.role} at ${work.company} (${work.location})`;
+  work_container.appendChild(heading);
+
+  const ul = document.createElement("ul");
+
+  work.bullets.forEach((bullet_text) => {
+    const li = document.createElement("li");
+    li.textContent = bullet_text;
+    ul.appendChild(li);
+  });
+
+  work_container.appendChild(ul);
+});
