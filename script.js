@@ -86,3 +86,21 @@ work_experience.forEach((work) => {
 
   work_container.appendChild(ul);
 });
+
+const education_container = document.getElementById("education");
+
+education.forEach((school) => {
+  const heading = document.createElement("h4");
+  heading.textContent = `${school.degree} at ${school.school} studying ${school.major}`;
+  education_container.appendChild(heading);
+
+  const ul = document.createElement("ul");
+
+  school.bullets.forEach((bullet_text) => {
+    const li = document.createElement("li");
+    li.textContent = bullet_text;
+    ul.appendChild(li);
+  });
+
+  education_container.appendChild(ul);
+});
