@@ -73,7 +73,7 @@ const work_container = document.getElementById("work_experiences");
 
 work_experience.forEach((work) => {
   const heading = document.createElement("h4");
-  heading.textContent = `${work.role} at ${work.company} (${work.location})`;
+  heading.textContent = `${work.role} | ${work.company} - ${work.location} (${work.start_date} - ${work.end_date})`;
   work_container.appendChild(heading);
 
   const ul = document.createElement("ul");
