@@ -24,8 +24,8 @@ const work_experience = [
     start_date: "September 2025",
     end_date: "Now",
     bullets: [
-      "Creating scripts to monitor health of base transceiver stations (BTS).",
-      "Developing tailormade applications for telecom operators worldwide.",
+      "Architected and deployed 12 distinct automation scripts and internal tools to monitor health of base transceiver stations (BTS).",
+      "Developing tailormade applications for global telecom operators.",
       "Maintaining and improving CI/CD pipeline infrastructure.",
     ],
   },
@@ -34,7 +34,7 @@ const work_experience = [
 const education = [
   {
     school: "Metropolia University of Applied Sciences",
-    degree: "Bachelor of Engineering",
+    degree: "Bachelor of Engineering, Information Technology",
     major: "IoT - Embedded Devices",
     start_date: "August 2022",
     end_date: "May 2025",
@@ -91,7 +91,7 @@ const education_container = document.getElementById("education");
 
 education.forEach((school) => {
   const heading = document.createElement("h4");
-  heading.textContent = `${school.degree} at ${school.school} studying ${school.major}`;
+  heading.textContent = `${school.degree} (${school.major}) | ${school.school} (${school.start_date} - ${school.end_date})`;
   education_container.appendChild(heading);
 
   const ul = document.createElement("ul");
