@@ -40,6 +40,14 @@ const education = [
     end_date: "May 2025",
     bullets: ["Graduated a year early.", "GPA: 4.11"],
   },
+  {
+    school: "Kuopion Lyseo lukio",
+    degree: "Highschool Diploma",
+    major: "IB: International Baccalaureate",
+    start_date: "August 2019",
+    end_date: "June 2022",
+    bullets: [],
+  },
 ];
 
 document.getElementById("email").href = personal_email;
