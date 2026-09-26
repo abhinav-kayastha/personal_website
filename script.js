@@ -53,6 +53,7 @@ const education = [
 const publications = [
   {
     title: "YOLO for Urban Traffic: Insights from Helsinki Port Surveillance",
+    link: "https://link.springer.com/chapter/10.1007/978-981-96-5958-6_2",
     publication_date: "01.09.2025",
     bullets: [
       "Using YOLO models to real-time surveillance at Helsinki Port, addressing the issues of dataset imbalance, camera angles and weather variations.",
@@ -63,6 +64,7 @@ const publications = [
   {
     title:
       "Analysis and Visualization of Uplink Interference in LTE and 5G Networks Using RIP Counters",
+    link: "https://www.theseus.fi/items/7814ea95-cc53-4749-9e37-27fa6912511c",
     publication_date: "15.05.2026",
     bullets: [
       "Developed a Python based visualization application for Nokia Solutions and Networks Oy to analyze uplink interference in LTE and 5G networks.",
@@ -133,4 +135,22 @@ education.forEach((school) => {
   });
 
   education_container.appendChild(ul);
+});
+
+const publications_area = document.getElementById("publications_area");
+
+publications.forEach((publication) => {
+  const heading = document.createElement("h4");
+  heading.innerHTML = `<a href="${publication.link}" target="_blank" rel="noopener noreferrer">${publication.title}</a> (${publication.publication_date})`;
+  publications_area.appendChild(heading);
+
+  const ul = document.createElement("ul");
+
+  publication.bullets.forEach((bullet_text) => {
+    const li = document.createElement("li");
+    li.textContent = bullet_text;
+    ul.appendChild(li);
+  });
+
+  publications_area.appendChild(ul);
 });
