@@ -50,6 +50,28 @@ const education = [
   },
 ];
 
+const publications = [
+  {
+    title: "YOLO for Urban Traffic: Insights from Helsinki Port Surveillance",
+    publication_date: "01.09.2025",
+    bullets: [
+      "Using YOLO models to real-time surveillance at Helsinki Port, addressing the issues of dataset imbalance, camera angles and weather variations.",
+      "Enhanced dataset accuracy with filter masks using CVAT based annotation.",
+      "Compared YOLO variants on accuracy, efficiency and inference power to assess trade-offs for surveillance use.",
+    ],
+  },
+  {
+    title:
+      "Analysis and Visualization of Uplink Interference in LTE and 5G Networks Using RIP Counters",
+    publication_date: "15.05.2026",
+    bullets: [
+      "Developed a Python based visualization application for Nokia Solutions and Networks Oy to analyze uplink interference in LTE and 5G networks.",
+      "Overcame restrictions of internal tools by enabling full-spectrum analysis using Received Interference Power (RIP) counters from base station snapshots.",
+      "Accelerated network troubleshooting to identify Passive Intermodulation (PIM) issues in a timeefficient manner.",
+    ],
+  },
+];
+
 document.getElementById("email").href = personal_email;
 document.getElementById("linkedin").href = linkedin_profile_link;
 document.getElementById("github").href = github_profile_link;
